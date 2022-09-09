@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - lowercase and uppercase letters
@@ -6,11 +6,11 @@ nclude <stdlib.h>
  */
 int main(void)
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-		putchar(ch);
-	for (ch = 'A' ; ch <= 'Z' ; ch++)
-		putchar(ch);
-	putchar('\n');
-	return (0);
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
+putchar(ch);
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+putchar(ch);
+putchar('\n');
+return (0);
 }
