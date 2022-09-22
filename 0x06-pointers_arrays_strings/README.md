@@ -4,8 +4,7 @@ A follow-up project on pointers.
 
 Requirements
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-no standard library functions
-allowed to use _putchar
+no standard library functions.
 File Descriptions
 Mandatory
 0-strcat.c - function that concatenates two strings.
@@ -24,13 +23,13 @@ Mandatory
 
 7-leet.c - function that encodes a string into 1337.
 
-8-rot13.c - function that encodes a string using rot13.
+100-rot13.c - function that encodes a string using rot13.
 
 Advanced
-100-print_number.c - function that prints an integer without: arrays, pointers, or hard-coded special values.
+101-print_number.c - function that prints an integer without: arrays, pointers, or hard-coded special values.
 
-101-magic.c - Add one line to this [code](this code), so that the program prints a[2] = 98, followed by a new line.
+102-magic.c - Add one line to this [code](this code), so that the program prints a[2] = 98, followed by a new line.
 
-102-infinite_add.c - function that adds two numbers stored as strings.
+103-infinite_add.c - function that adds two numbers stored as strings.
 
-103-print_buffer.c - function that prints a buffer with special formatting.
+104-print_buffer.c - function that prints a buffer with special formatting.
