@@ -1,31 +1,30 @@
-0x07. C - Even more pointers, arrays and strings
+0x08. C - Recursion
 About
-A project on Pointers
-pointers to pointers and how to use them
-multidimensional arrays and how to use them
+An introductory project on:
+
+recursion, and how to use it
 Requirements
-Ubuntu 14.04
-gcc,  using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
+Ubuntu 20.04
 no standard library functions
+no loops of any kind
 allowed to use _putchar
 File Descriptions
 Mandatory
-0-memset.c - function that fills memory with a constant byte.
+0-puts_recursion.c - function that prints a string, followed by a new line.
 
-1-memcpy.c - function that copies memory area.
+1-print_rev_recursion.c - function that prints a string in reverse.
 
-2-strchr.c - function that locates a character in a string.
+2-strlen_recursion.c - function that returns the length of a string.
 
-3-strspn.c - function that gets the length of a prefix substring.
+3-factorial.c - function that returns the factorial of a given number.
 
-4-strpbrk.c - function that searches a string for any of a set of bytes.
+4-pow_recursion.c - function that returns the value of x raised to the power of y.
 
-5-strstr.c - function that locates a substring.
+5-sqrt_recursion.c - function that returns the natural square root of a number.
 
-7-print_chessboard.c - function that prints a chessboard.
+6-is_prime_number.c - function that returns 1 if the input integer is a prime number, otherwise returns 0.
 
-8-print_diagsums.c - function that prints the sum of the two diagonals of a square matrix of integers. Allowed to use the standard library
+100-is_palindrome.c - function that returns 1 if a string is a palindrome and 0 if not
 
 Advanced
-100-set_string.c - function that sets the value of a pointer to a char.
-101-crackme_password - file that contains the password for the crackme2 executable.
+101-wildcmp.c - function that compares two strings and returns 1 if the strings can be considered identical, otherwise returns 0.
