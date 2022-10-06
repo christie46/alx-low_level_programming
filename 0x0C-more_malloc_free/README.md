@@ -2,10 +2,9 @@ More malloc, free
 About
 An introductory project on:
 
-calloc, realloc, and exit
+Calloc, Realloc, and exit
 Requirements
 Ubuntu 20.04
-gcc 4.8.4
 File Descriptions
 Mandatory
 0-malloc_checked.c - function that allocates memory using malloc.
