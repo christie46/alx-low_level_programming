@@ -1,53 +1,22 @@
-
-
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
 
 /**
- * free_list - frees a list_t list
- * @head: pointer to the start of the list
- *
- * Return: void
+ * free_list - frees a linked list
+ * @head: a pointer to the first struct in the linked list
+ * Return: No Value
  */
 void free_list(list_t *head)
 {
-	list_t *current, *next;
+        list_t *temp;
 
-	current = head;
-	while (current != NULL)
-	{
-		next = current->next;
-		free(current->str);
-		free(current);
-		current = next;
-	}
-
-}
-
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
-
-/**
- * free_list - frees a list_t list
- * @head: pointer to the start of the list
- *
- * Return: void
- */
-void free_list(list_t *head)
-{
-	list_t *current, *next;
-
-	current = head;
-	while (current != NULL)
-	{
-		next = current->next;
-		free(current->str);
-		free(current);
-		current = next;
-	}
-
+        for (; head;)
+        {
+                temp = head;
+                head = head->next;
+                free(temp->str);
+                free(temp);
+        }
 }
